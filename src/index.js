@@ -3,6 +3,7 @@
 var phantom = require('phantom');
 var Totals = require('./Totals');
 var Alerts = require('./Alerts');
+var Checklists = require('./Checklists');
 var Targets = require('./Targets');
 var request = require('request-promise');
 var cheerio = require('cheerio');
@@ -44,6 +45,7 @@ class ebird {
         this.session = sessionToken;
         this.bindTo('totals', Totals);
         this.bindTo('alerts', Alerts);
+        this.bindTo('checklists', Checklists);
         this.bindTo('targets', Targets);
     }
 

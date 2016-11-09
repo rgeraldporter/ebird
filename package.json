@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ProjectBabbler/ebird#readme",
   "dependencies": {
     "cheerio": "^0.20.0",
+    "csv-string": "^2.3.0",
     "csvtojson": "^1.0.0",
     "phantom": "^2.1.13",
     "phantomjs-prebuilt": "^2.1.4",
